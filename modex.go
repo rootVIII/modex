@@ -14,6 +14,7 @@ import "fmt"
 // git tag v0.1.0
 // git push origin v0.1.0
 
+// Combine Uses v0.1.0
 func Combine(val string) string {
 	return fmt.Sprintf("%[1]s - %[1]s", val)
 }
