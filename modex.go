@@ -18,3 +18,8 @@ import "fmt"
 func Combine(val string) string {
 	return fmt.Sprintf("%[1]s - %[1]s", val)
 }
+
+// Combine2 Uses v0.1.1
+func Combine2(val string) string {
+	return fmt.Sprintf("%[1]s - %[1]s - %[1]s", val)
+}
