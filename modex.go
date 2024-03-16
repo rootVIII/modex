@@ -14,7 +14,7 @@ import "fmt"
 // git tag v0.1.0
 // git push origin v0.1.0
 
-// In client codebase use go get to install to ~/go/pkg/mod
+// In client codebase use go get to install to ~/go/pkg/mod/github.com
 // go get github.com/rootVIII/modex@v0.1.0
 // go get github.com/rootVIII/modex@v0.1.1
 
