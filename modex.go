@@ -18,7 +18,13 @@ import "fmt"
 // go get github.com/rootVIII/modex@v0.1.0
 // go get github.com/rootVIII/modex@v0.1.1
 
+// Import into client codebase via:
+// import "github.com/rootVIII/modex"
+
 // Module version is visible in client codebase's go.mod
+// Run go get if upgrading to new version (go.mod will update)
+// If the module is not longer used, remove unused modules from go.mod via:
+// go mod tidy
 
 // Combine Uses v0.1.0
 func Combine(val string) string {
