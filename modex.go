@@ -23,6 +23,7 @@ import "fmt"
 
 // To import this module into client codebase via:
 // import "github.com/rootVIII/modex"
+// Depending on version used...  use modex.Combine() or modex.Combine2()
 
 // Run "go get" with version details if upgrading to new version (go.mod will update)
 // If the module is no longer used, remove unused modules from "go.mod" via:
