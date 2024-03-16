@@ -2,7 +2,7 @@ package modex
 
 import "fmt"
 
-// Module created via:
+// This module was created via:
 //go mod init github.com/rootVIII/modex
 
 // semver 1.2.3
@@ -13,6 +13,8 @@ import "fmt"
 // After pushing changes, use git tag to version module
 // git tag v0.1.0
 // git push origin v0.1.0
+
+// If new changes are made, add/commit/push and then tag/push to update versions
 
 // In client codebase use go get to install to ~/go/pkg/mod/github.com
 // go get github.com/rootVIII/modex@v0.1.0
