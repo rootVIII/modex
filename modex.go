@@ -18,6 +18,8 @@ import "fmt"
 // go get github.com/rootVIII/modex@v0.1.0
 // go get github.com/rootVIII/modex@v0.1.1
 
+// Module version is visible in client codebase's go.mod
+
 // Combine Uses v0.1.0
 func Combine(val string) string {
 	return fmt.Sprintf("%[1]s - %[1]s", val)
